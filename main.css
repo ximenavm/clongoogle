@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-top: 5px;
+    text-align: center;
+}
+main .main-logo{
+
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+main .main-logo img{
+    width: 330px;
+    height: 200px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon{
+    background-image: url("http://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+
+main .main-input .micro-icon{
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+main .main-input .camara-icon{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAA8AEADASIAAhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAABQYHAAEEAwL/xAA8EAABAwMBBAQJCwUAAAAAAAABAgMEAAURBhIhMVEHIkFxFBUXUmGRobLRNTZUVXSBk5SiscETMmNyc//EABkBAAMBAQEAAAAAAAAAAAAAAAIDBAUGAf/EAC0RAAEEAQMBBgUFAAAAAAAAAAEAAgMEEQUSITETIiNBUWEUMzWx0VJTcYHw/9oADAMBAAIRAxEAPwC41lCtQX2NY4yXHgXHXMhppJwVY9PYPTSLJ1zeHFkoXHYT2JS3n2nNWQUZpxuaOPdIlsxxnB6qhXa5xrTDVKlrwkbkpH9yzyA50seUGN9XvfiCku6XeVdXkuzpAcUkYSNwCR6AK49tPnD11qwaVG1vi8lQyXnF3c4CoSOkGIVpC4L6Uk71BQOBzxTbGkNSmEPx3EuNODKVJO4iohtp84euiVr1BcLS0tqDKShtZ2ihQCgDzGeFBa0tuzdCOR5eq9ivEHxOQrFWVNIGvLm06DKSzJaz1gE7KvuI3eyqBa7hHukJuXEXtNr7DxSe0Ec655rwTjzVsNmObhvVTnXDzknU7zJO5oIaRngMgH91VRLXa4triojxWkpAA2l46yzzJqcasBGr5OQRl1oj09VNVSte84iCJoPGPwk1hmWQnrlawOVfLjjbQ2nVoQOaiBXBqK6Cz2p2XshTgwltJ4FR4fH7qks2XInvqfmPKecV2qPDuHYPQKVTousAuJwEc9kRHGMlWpJStIUgpUk8CN9bwOVRyz3eXZ5KXojh2M9donqrHIj+ar0OQ3MisyWTlt1AWnPIjNDbpurEc5BRQWBMOmCgmtLVFl2WVJU0lMiM2XUOgdbqjJB5gigPRjIX4ROj5y2pCXAORBx/I9VNmp/m5dPsjvumkrou+VJg/wAA96sl5xM33VzdNbLEbTThzTz7j8olqSG3LuzgXuWlaClQ4jcPZTtSleN15dJ3DaSfYKbag0uxI+SeJzsta44HpknP2TbMbWtY8Dkjn+ktdIEVyTp8rbBPg7qXVAebgg+raz91TGrkoBSSlQBBGCD20p3HQcGQ8XIUhcUKOSjZ20juGQR666/T70cTOzk491i2qznu3NU53ncASeQqyWGK5DssKO8MONspChyON4oVZNHQLY+mQ6tUp9BygrACUnmBz780yUvULjJ8MZ0COrXdHlzuqGan+bl0+yO+6aSei75Umf8AAe9TrqlQTpu5lRABiuDfzKSBSX0XA+M5p7AwB+qsGT57V0tT6dN/vRNmoLct1QlMJKiBhaRx764It8lR2g2QhwJ3AqzkCmuvFyLHdVtOsNLVzUgE1DY0uQzGetJsJ6+hUMdluwMkbkBL6tQytk7DTIVjcSCR+9AJOvbtFeUy9BiJWn/bBHMb+FPvgEP6Ix+GK8nrRbJBBft0N3Z4bbCVY9YpleteYfElDh/CfFZqNPfiyEheUS5fQ4n6vjWeUS5fQ4n6vjTx4gsv1Rb/AMsj4VniCy/VFv8AyyPhVXZT/qT/AIvT/wBlTO86mumoAiGpKUtqUMMR0Elw9meJPdT1oewrstvW5KAEuSQpxOc7AHBPfvOe/wBFHIsCHDz4HEYYzx/pNBP7CuijjhLXb3HJSbWoNki7GFm1v3X/2Q==");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 28px;
+    cursor: pointer;
+    margin-right: 25px;
+    margin: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: black;
+   
+}
+
+nav .nav-right-section img{
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url("http://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+
+}
+
+main .main-button{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #565665;
+    color: #222;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
